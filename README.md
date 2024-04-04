@@ -93,3 +93,23 @@ type SubscriptionInfo = {|
 ```
 
 This call will return you the Subscription object with "clientSecret" field. You will need Client Secret to pass to Stripe Elements on the client side to procceed with payment and to confirm the subscription.
+
+## Other functions
+
+### Get subscription
+
+To get information about a subscription use:
+
+GET /subscription/:id
+
+### Cancel subscription
+
+To cancel a subscription use:
+
+POST /subscription/cancel/:id
+
+### Resume subscription
+
+To resume a subscription after cancelling use:
+
+POST /subscription/resume/:id

@@ -12,6 +12,14 @@ Before using this service create .env file in the root of the project and copy t
 
 ![Secret key](./assets/secret-key.png)
 
+## Start a service
+
+To start a service locally you will need to run
+
+npm install
+
+npm run start:dev
+
 ## Retrieve products
 
 To retrieve products which you created on the client side use:
@@ -113,3 +121,18 @@ POST /subscription/cancel/:id
 To resume a subscription after cancelling use:
 
 POST /subscription/resume/:id
+
+## Deployment to Cyclic
+
+You can deploy the service to Cyclic for free.
+
+For this you should sign up to Cyclic with your Github account. Then choose Link Your Own tab.
+
+![Cyclic screen](./assets/cyclic-deploy.png)
+
+Choose the repository under "Connect your repo", then clock "Connect Cyclic".
+
+In the App Dashboard of Cyclic you can set your environment variables under "Variables" tab.
+
+![Cyclic vars](./assets/cyclic-vars.png)
+

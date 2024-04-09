@@ -2,7 +2,7 @@
 
 Go to [`Stripe register page`](https://dashboard.stripe.com/register) and create an account, then verify your email.
 
-To suggest some products or services (e.g different plans) your customers can subscribe to you need to create them in your Stripe dashboard. Go to [`Product catalog page`](https://dashboard.stripe.com/products) of Stripe dashboard and create your products.
+To suggest some products or services (e.g different plans) your customers can subscribe to you need to create them in your Stripe dashboard. Go to [`Product catalog page`](https://dashboard.stripe.com/products?active=true) of Stripe dashboard and create your products.
 
 ![Creating a product](./assets/create-product.png)
 
@@ -136,3 +136,6 @@ In the App Dashboard of Cyclic you can set your environment variables under "Var
 
 ![Cyclic vars](./assets/cyclic-vars.png)
 
+## Demo
+
+[Watch the video](https://www.loom.com/embed/a0b324e5be524503b4da60db2d06a52d?sid=f2fd1901-8098-4351-99ed-455a0b0856e4)
